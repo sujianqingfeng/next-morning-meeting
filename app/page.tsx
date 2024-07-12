@@ -94,7 +94,7 @@ export default function HomePage() {
         <div
           style={style}
           className={cn(
-            'absolute h-[92px] w-[92px] rounded-full border-pink-400 bg-gradient-to-r from-purple-500 to-pink-500 border-4 border-solid transition-all'
+            'absolute h-[92px] w-[92px] rounded-full border-pink-400 border-4 border-solid transition-all'
           )}
         ></div>
       )}
