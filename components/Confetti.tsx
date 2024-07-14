@@ -27,11 +27,12 @@ function Confetti({ name, url }: ConfettiProps) {
             <Image
               width={250}
               height={250}
-              src={`${url}?x-oss-process=image/resize,w_400,h_400`}
-              className=" rounded-full"
+              src={`${url}`}
+              className="rounded-full"
               alt=""
             />
           )}
+
           {!url && (
             <div className="bg-teal-400 text-white font-bold text-4xl h-[200px] w-[200px] rounded-full inline-flex justify-center items-center">
               {name[0]}

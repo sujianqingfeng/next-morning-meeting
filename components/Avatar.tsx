@@ -12,7 +12,7 @@ function Avatar({ name, url }: AvatarProps) {
         width={80}
         height={80}
         src={`${url}?x-oss-process=image/resize,w_400,h_400`}
-        className=" rounded-full"
+        className="rounded-full"
         alt=""
       />
     )
