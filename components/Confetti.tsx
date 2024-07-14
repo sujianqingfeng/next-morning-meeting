@@ -24,12 +24,10 @@ function Confetti({ name, url }: ConfettiProps) {
         />
         <div className="relative z-1">
           {url && (
-            <Image
-              width={250}
-              height={250}
-              src={`${url}`}
-              className="rounded-full"
-              alt=""
+            // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
+            <img
+              className="rounded-full h-[250px] w-[250px]"
+              src={`${url}?x-oss-process=image/resize,w_400,h_400`}
             />
           )}
 
