@@ -27,7 +27,6 @@ export default function HomePage() {
 
   const interval = () => {
     const r = generateRandom(0, users.length - 1)
-    console.log('🚀 ~ interval ~ r:', r)
     const current = wrapperRef.current?.children[r]
     if (!current) {
       return

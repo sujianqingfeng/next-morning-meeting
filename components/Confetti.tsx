@@ -27,7 +27,7 @@ function Confetti({ name, url }: ConfettiProps) {
             <Image
               width={250}
               height={250}
-              src={`${url}?x-oss-process=image/resize,w_500,h_500`}
+              src={`${url}?x-oss-process=image/resize,w_400,h_400`}
               className=" rounded-full"
               alt=""
             />
